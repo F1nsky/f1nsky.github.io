@@ -1,22 +1,131 @@
-<main>
-  <h1>Василий Винтер</h1>
-  <h2>студент Hexlet</h2>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Portfolio of Vasiliy Winter — QA engineer and JavaScript developer focused on reliable web products."
+    >
+    <title>Vasiliy Winter — QA Engineer & JavaScript Developer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Back to top">VW<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+      <a class="header-link" href="https://github.com/F1nsky">GitHub ↗</a>
+    </header>
 
-  <hr>
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span></span> Based in Haifa, Israel</div>
+        <h1 id="hero-title">I find the edge cases<br>and build the solution.</h1>
+        <p class="hero-copy">
+          I am Vasiliy Winter, a QA-focused web specialist with a background in
+          technical support and frontend development. I test products, investigate
+          defects, and build practical JavaScript projects.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work</a>
+          <a class="button button-secondary" href="https://github.com/F1nsky">View GitHub profile</a>
+        </div>
+        <dl class="highlights" aria-label="Professional highlights">
+          <div><dt>5+ years</dt><dd>Web product experience</dd></div>
+          <div><dt>QA + JS</dt><dd>Testing with code awareness</dd></div>
+          <div><dt>EN · RU</dt><dd>International communication</dd></div>
+        </dl>
+      </section>
 
-  <section>
-    <h2>Ключевые навыки:</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-  </section>
+      <section class="section split" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-number">01 / About</p>
+          <h2 id="about-title">A product mindset,<br>from report to resolution.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            My support background taught me to translate unclear user reports into
+            reproducible cases. Frontend experience helps me read HTML, CSS, and
+            JavaScript, inspect browser behavior, and communicate clearly with developers.
+          </p>
+          <p>
+            I care about useful test coverage, precise bug reports, maintainable code,
+            and documentation that helps the next person move faster.
+          </p>
+        </div>
+      </section>
 
-  <section>
-    <h2>О себе</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </section>
-</main>
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <p class="section-number">02 / Skills</p>
+        <h2 id="skills-title">Testing depth. Frontend fluency.</h2>
+        <div class="skill-grid">
+          <article>
+            <p class="card-index">A</p>
+            <h3>Quality assurance</h3>
+            <p>Manual testing, test design, regression, exploratory testing, defect reporting, and root-cause investigation.</p>
+          </article>
+          <article>
+            <p class="card-index">B</p>
+            <h3>Test automation</h3>
+            <p>JavaScript, Playwright, Jest, API checks, reusable test structure, and GitHub Actions workflows.</p>
+          </article>
+          <article>
+            <p class="card-index">C</p>
+            <h3>Web development</h3>
+            <p>Semantic HTML, responsive CSS, modern JavaScript, browser DevTools, Git, and accessible interfaces.</p>
+          </article>
+          <article>
+            <p class="card-index">D</p>
+            <h3>Communication</h3>
+            <p>Technical support, reproduction steps, educational content, documentation, and cross-team collaboration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <p class="section-number">03 / Selected work</p>
+        <h2 id="projects-title">Projects that show how I think.</h2>
+        <div class="project-list">
+          <a class="project" href="https://github.com/F1nsky/test-automation-hexlet">
+            <span class="project-number">01</span>
+            <span><strong>Test Automation Lab</strong><small>JavaScript · automated testing · QA</small></span>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="project" href="https://github.com/F1nsky/frontend-project-46">
+            <span class="project-number">02</span>
+            <span><strong>Difference Finder</strong><small>JavaScript · Jest · parsers · CLI</small></span>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="project" href="https://github.com/F1nsky/evaluation-widget">
+            <span class="project-number">03</span>
+            <span><strong>Feedback Widget</strong><small>HTML · CSS · JavaScript · accessibility</small></span>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="project" href="https://github.com/F1nsky/calculator-js-noeval">
+            <span class="project-number">04</span>
+            <span><strong>JavaScript Calculator</strong><small>State · DOM · responsive interface</small></span>
+            <span class="arrow">↗</span>
+          </a>
+          <a class="project" href="https://github.com/F1nsky/frontend-project-lvl1">
+            <span class="project-number">05</span>
+            <span><strong>Brain Games</strong><small>JavaScript · CLI · functional decomposition</small></span>
+            <span class="arrow">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p class="section-number">Available for the right opportunity</p>
+        <h2>Let’s build something reliable.</h2>
+      </div>
+      <a class="button button-primary" href="https://github.com/F1nsky">Connect on GitHub ↗</a>
+      <p class="copyright">© 2026 Vasiliy Winter</p>
+    </footer>
+  </body>
+</html>
